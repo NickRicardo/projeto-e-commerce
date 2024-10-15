@@ -34,7 +34,7 @@ Este projeto é uma API RESTful criada para fornecer funcionalidades essenciais 
 
 ## 🛠️ **Tecnologias Utilizadas**
 - **Java** com **Spring Boot**
-- **PostgreSQL** para banco de dados
+- **MYSql** para banco de dados
 - **JWT** para autenticação
 - **Swagger** para documentação de API
 - **Lombok** para reduzir a verbosidade do código
