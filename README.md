@@ -97,6 +97,7 @@ http://localhost:8080/swagger-ui/index.html
 | PUT    | `/orders/{id}`            | Atualizar o status de um pedido |
 | DELETE | `/orders/{id}`            | Cancelar um pedido             |
 
+
 ### 🤝 **Contribuição**
 
 Este é um projeto colaborativo focado no desenvolvimento e aprimoramento de portfólios. A equipe é incentivada a contribuir com melhorias, novas funcionalidades e sugestões para tornar o projeto mais robusto.
@@ -104,7 +105,7 @@ Este é um projeto colaborativo focado no desenvolvimento e aprimoramento de por
 #### **Como Contribuir**  
 1. Faça um fork do projeto:
    ```bash
-   git clone https://github.com/KaduSR/ecommerce-api.git
+   git clone https://github.com/NickRicardo/projeto-e-commerce.git
 
 2. Crie uma nova branch para sua feature:
    ```bash
@@ -119,6 +120,9 @@ Este é um projeto colaborativo focado no desenvolvimento e aprimoramento de por
     ```bash
     git push origin feature/sua-feature
 5. Abra um Pull Request no repositório principal.
+
+### 📜 **Licença**
+Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo LICENSE.
 
 #### **Repositórios Colaborativos**
 - [Carlos - KaduSR](https://github.com/KaduSR)  
