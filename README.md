@@ -46,7 +46,7 @@ Este projeto é uma API RESTful criada para fornecer funcionalidades essenciais 
 ### **Pré-requisitos**
 - Java 17+
 - Maven 3.8+
-- PostgreSQL configurado e rodando
+- MySQL configurado e rodando
 
 ### **Instalação e Execução**
 1. Clone o repositório:
