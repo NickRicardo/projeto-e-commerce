@@ -54,21 +54,25 @@ Este projeto é uma API RESTful criada para fornecer funcionalidades essenciais 
    git clone https://github.com/NickRicardo/projeto-e-commerce
    cd ecommerce-api
 
-   # Configuração do Banco de Dados PostgreSQL
-spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
+### **Configuração do `application.properties`**  
+   Configure as variáveis de ambiente ou o arquivo `application.properties` com as seguintes informações:
 
-# Configurações JPA
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
+2. Configure as variáveis de ambiente ou o arquivo `application.properties`:
+   # Configuração do Banco de Dados MySQL
+       spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
+       spring.datasource.username=seu_usuario
+       spring.datasource.password=sua_senha
+ 
+    # Configurações JPA
+       spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+       spring.jpa.hibernate.ddl-auto=update
+       spring.jpa.show-sql=true
 
-# Porta do servidor
-server.port=8080
-
-# Limpar e compilar o projeto
-mvn clean install
+    # Porta do servidor
+      server.port=8080
+   
+    # Limpar e compilar o projeto
+      mvn clean install
 
 # Executar o projeto usando o Spring Boot
 mvn spring-boot:run
@@ -124,6 +128,15 @@ Para sugestões ou dúvidas, entre em contato conosco por meio dos repositórios
 
 > **“Às vezes você tem que correr antes de aprender a andar.”**  
 > — *Tony Stark*
+
+
+
+
+
+
+
+
+
 
 
 
